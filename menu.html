@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./home.html">The Pizza Place</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +42,11 @@
         </header>
         <main>
             <div class="container">
-                <div class="row row-cols-md-2 row-cols-lg-3">
-                    <div class="col">
+                <div class="row my-5 row-cols-md-2 row-cols-lg-3 g-3">
+                    <div class="col ">
                         <div class="card p-3" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./images/Menu/Cheese_Pizza.png" class="card-img-top" alt="Cheese Pizza">
+                            <h5 class="card-title">Cheese Pizza</h5>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -53,7 +54,8 @@
                     </div>
                     <div class="col">
                         <div class="card p-3" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./images/Menu/Pepperoni_Pizza.png" class="card-img-top" alt="Pepperoni Pizza">
+                            <h5 class="card-title">Pepperoni Pizza</h5>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -61,7 +63,8 @@
                     </div>
                     <div class="col">
                         <div class="card p-3" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./images/Menu/Supreme_Pizza.png" class="card-img-top" alt="Supreme Pizza">
+                            <h5 class="card-title">Supreme Pizza</h5>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -140,7 +143,17 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto p-3">
+                <a  href="./home.html" class="btn btn-danger" type="button">
+                    Place Your Order Here
+                </a>
               </div>
         </main>
     </body>
+    <footer>
+        <p>&copy; 2021 The Pizza Place</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

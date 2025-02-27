@@ -36,27 +36,23 @@
 .testimonial-quote {
     font-size: 1.75rem;
     font-style: italic;
-    font-weight: 400;
     justify-content: center;
     text-align:center;
 }
 
 .body-text {
     margin: 3rem;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .hours {
 
     font-size: 1.25rem;
-    font-weight: 400;
     text-align: center;
 }
 
 .list-item {
     padding: .5rem .5rem;
 }
-
-/*.carousel-image {
-    height: 900px;
-    align-items: center;
-}*/
