@@ -2,10 +2,55 @@
     height: 600px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.25),
             rgba(255, 255, 255, 0.25)),
-        (url(../images/Pizza-Main-Banner.png));
+        url(../images/Pizza-Main-Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-banner-title {
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: calc(2rem + 2vw);
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.testimonial-quote {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 400;
+    justify-content: center;
+    text-align:center;
+}
+
+.body-text {
+    margin-top: 3rem;
+}
+
+.hours {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.list-item {
+    padding: .5rem;
 }
