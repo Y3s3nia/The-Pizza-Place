@@ -42,15 +42,21 @@
 }
 
 .body-text {
-    margin-top: 3rem;
+    margin: 3rem;
 }
 
 .hours {
+
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
 }
 
 .list-item {
-    padding: .5rem;
+    padding: .5rem .5rem;
 }
+
+/*.carousel-image {
+    height: 900px;
+    align-items: center;
+}*/
