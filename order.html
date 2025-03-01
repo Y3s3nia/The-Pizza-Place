@@ -36,18 +36,6 @@
         </header>
         <main>
             <h1 class = "my-5 text-center">Order</h1> 
-            <h3 class = "text-center">Sign In</h3> 
-            <form class="row g-3 form">
-                <div class = "row my-4">
-                    <div class="col">
-                        <label for="floatingInput">Email address</label>
-                        <input type="email" class="form-control" required>
-                    </div>
-                    <div class="col">
-                        <label for="floatingPassword">Password</label>
-                        <input type="password" class="form-control" required>
-                    </div>
-                </div>
             </form>
             <form class="row g-3 form">
                 <div class="row">
@@ -85,15 +73,21 @@
                   <input type="text" class="form-control" id="inputZip" required>
                 </div>
                 <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
+                    <label for="inputTextarea" class = "form-lable">Place Order Here</label>
+                    <textarea class="form-control" placeholder="1 Large Pepperoni and an order of breadsticks" style="height: 100px"></textarea>
                   </div>
+                <div class="col-12">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Carry Out</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Delivery</label>
+                    </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-danger">Sign in</button>
+                  <button type="submit" class="btn btn-danger">Place Order</button>
                 </div>
               </form>
         </main>
