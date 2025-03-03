@@ -24,6 +24,6 @@ The website will have 2 pages with information, the home page will include a mai
  
 ## Improvments 
  There are a few imprvments that can be made to this website:
- - The form page could be improved by adding forms for payments
- - The layout of the menu can be improved and somethings could be added for more variety
- - The main page could be improved by adding a 
+ - The form page could be improved by adding forms for payments.
+ - The layout of the menu can be improved and somethings could be added for more variety and adding buttons to add the cart.
+ - The main page could be improved by improving the operating hours list.
