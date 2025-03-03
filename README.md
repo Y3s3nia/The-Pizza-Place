@@ -2,6 +2,8 @@
 
 Yesenia Neri
 
+This is a hypothetical pizza establishment: https://y3s3nia.github.io/The-Pizza-Place/
+
 ## Discription
 The website will have 2 pages with information, the home page will include a main banner, the operating hours a review for the product and a carousel telling the user about the product. The second page will be the menue it will include 12 product images and with a discription. The third page will be used to start and place their order online.
 
